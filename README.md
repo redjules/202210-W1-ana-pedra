@@ -2,10 +2,10 @@
 
 Week 1. Git & GitHub
 
-Start and configure project.
+First project using Git, Github and derivatives.
 
-Maintain constant backup with remote repository.
-
-First contact with Husky and hooks.
-
-Linking with Netlify.
+-Initialize and configure a project from 0.
+-Install Husky and hooks.
+-Validate Husky operation.
+-Pull Request (PR) to merge with branch main.
+-Linking and deploying pre-course exercises with Netlify.
