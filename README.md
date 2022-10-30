@@ -12,4 +12,4 @@ First project using Git, Github and derivatives.
 
 -Pull Request (PR) to merge with branch main.
 
--Linking and deploying pre-course exercises with Netlify.
+-Linking and deploying pre-course exercises with Netlify: https://prismatic-platypus-70df04.netlify.app/
