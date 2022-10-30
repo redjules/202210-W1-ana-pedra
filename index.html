@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8">
     <title>Proyecto Netlify</title>
+    <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/106017493?v=4">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <nav class="flex-container">
-    <div>
-        <a href="Calculadora/calc.html">Calculadora</a>
+    <div class="drop-shadow round calculadora-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/1176/1176238.png" width="64" height="64">
+        <h1>Aplicación calculadora</h1>
+        <button id="calculadoraButton" style="font-family: inherit" class="btn btn-success"  href="Calculadora/calc.html">Calculadora</button>
     </div>
-    <div>
-        <a href="Pasapalabra/pasapalabra.html">Pasapalabra</a>
+    <div class="drop-shadow round">
+        <img src="https://i.pinimg.com/originals/3c/d0/9d/3cd09d3a0f595f469d2c3275a942303d.jpg" width="64" height="64">
+        <h1>Aplicación pasapalabra</h1>
+        <button id="pasapalabraButton" style="font-family: inherit" class="btn btn-success"  href="Pasapalabra/pasapalabra.html">Pasapalabra</button>
     </div>
 </nav>
+<script>
+    document.getElementById("calculadoraButton").addEventListener('click', function () {
+        location.href = "Calculadora/calc.html";
+    });
+    document.getElementById("pasapalabraButton").addEventListener('click', function () {
+        location.href = "Pasapalabra/pasapalabra.html";
+    });
+</script>
 </body>
 </html>
