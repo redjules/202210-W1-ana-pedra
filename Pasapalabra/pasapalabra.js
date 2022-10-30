@@ -6,7 +6,7 @@ let listOfWords
 const maxTime = 240
 let timeLeft = maxTime
 
-const rankingOfPlayers = [{ name: "default_player", points: 05 }]
+const rankingOfPlayers = [{ name: "default_player", points: 5 }]
 const questions = [
   {
     letter: "a",
